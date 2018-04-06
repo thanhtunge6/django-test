@@ -1,0 +1,4 @@
+Django==2.0.3
+WhiteNoise==1.0.4
+jsonschema==2.6.0
+djangorestframework==3.7.7

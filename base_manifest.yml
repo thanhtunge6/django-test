@@ -1,0 +1,9 @@
+memory: 4096M
+buildpack: https://github.com/cloudfoundry/python-buildpack.git#v1.5.26
+timeout: 180
+path: .
+no-route: true
+health-check-type: none
+disk_quota: 4096M
+env:
+    PYTHONPATH: .

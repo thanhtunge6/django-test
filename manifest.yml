@@ -1,0 +1,11 @@
+---
+inherit: base_manifest.yml
+
+applications:
+- name: ss-web-service-test
+  memory: 1GB
+  no-route: false
+  buildpack: python_buildpack
+  command: bash ./run.sh
+  path: ./
+
